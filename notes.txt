@@ -1,0 +1,21 @@
+How It Works:
+merge_csv_files Function:
+
+Reads two CSV files.
+Merges them on specified columns (e.g., Name and Address).
+Saves the merged result to a new CSV file.
+parse_pdfs Function:
+
+Iterates through all PDFs in a specified folder.
+Extracts text from each page of each PDF.
+Saves the extracted content (file name, page number, and text) to a CSV.
+Main Execution:
+
+Specify file paths for the two CSVs and the folder containing PDFs.
+Specify the output file names.
+Call the functions to merge the CSVs and parse the PDFs.
+Steps to Run:
+Ensure you have the required files:
+
+Two CSV files (names_addresses.csv and donations_details.csv).
+A folder containing PDF files (pdfs).
